@@ -1,0 +1,42 @@
+# depslib dependency file v1.0
+1438496691 source:/root/桌面/RPCFrame/RPCServer/main.cpp
+	<myunp.h>
+
+1438510580 /root/桌面/RPCFrame/RPCServer/include/myunp.h
+	<stdio.h>
+	<stdlib.h>
+	<netinet/in.h>
+	<string.h>
+	<arpa/inet.h>
+	<sys/socket.h>
+	<unistd.h>
+	<errno.h>
+	<sys/epoll.h>
+	<sys/select.h>
+	<fcntl.h>
+	<pthread.h>
+	<map>
+	<iostream>
+	"x.pb.h"
+
+1438495280 /root/桌面/RPCFrame/RPCServer/include/x.pb.h
+	<string>
+	<google/protobuf/stubs/common.h>
+	<google/protobuf/generated_message_util.h>
+	<google/protobuf/message.h>
+	<google/protobuf/repeated_field.h>
+	<google/protobuf/extension_set.h>
+	<google/protobuf/unknown_field_set.h>
+
+1438495289 source:/root/桌面/RPCFrame/RPCServer/src/x.pb.cpp
+	"x.pb.h"
+	<algorithm>
+	<google/protobuf/stubs/common.h>
+	<google/protobuf/stubs/once.h>
+	<google/protobuf/io/coded_stream.h>
+	<google/protobuf/wire_format_lite_inl.h>
+	<google/protobuf/descriptor.h>
+	<google/protobuf/generated_message_reflection.h>
+	<google/protobuf/reflection_ops.h>
+	<google/protobuf/wire_format.h>
+
